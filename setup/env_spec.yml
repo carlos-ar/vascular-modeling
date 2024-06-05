@@ -1,0 +1,18 @@
+name: meshing410
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - spyder
+  - pydicom
+  - vtk
+  - itk
+  - h5py
+  - meshio
+  # pip install didn't work, need to fix
+  # - pip:
+  #   - --upgrade
+  #   - gmsh
+

@@ -1,0 +1,13 @@
+name: meshing
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - spyder
+  - pydicom
+  - vtk
+  - h5py
+  - pip
+  

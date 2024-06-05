@@ -1,3 +1,11 @@
+# Added for mac
+.DS_STORE
+# mesh files exist eslewhere
+*.msh22
+*.msh
+*.msh2
+*.stl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

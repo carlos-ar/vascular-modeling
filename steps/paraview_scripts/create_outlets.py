@@ -104,12 +104,13 @@ def create_box_cuts(input_mesh, points, normals, radii):
             c = clip_func(clip_in, point, normal, radius, n)
 
             clip_in = GetActiveSource()
+    return renderView1
 
 points = np.load('endpoints.npy')
 normals = np.load('normals.npy')
 radii = np.load('radii.npy')
 input_mesh = 'surface_curated.stl'
-create_box_cuts(input_mesh, points, normals, radii)
+renderView1 = create_box_cuts(input_mesh, points, normals, radii)
 
 #--------------------------------------------
 # uncomment the following to render all views
